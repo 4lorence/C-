@@ -7,7 +7,7 @@ Console.WriteLine(c);
 int d = new Random().Next(1,100);
 Console.WriteLine(d);
 int e = new Random().Next(1,100);
-Console.WriteLine(e);
+Console.WriteLine(a);
 
 int max = a;
 
