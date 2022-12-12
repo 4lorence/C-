@@ -7,7 +7,7 @@
 }
 
 int[] array = {11,33,43,657,778,356,123,657,232};
-array[0] =1000;
+// array[0] =779;
 
 int max = Max(
     Max(array[0], array[1], array[2]),

@@ -1,15 +1,15 @@
-﻿void FillArray(int[] collection)
+﻿void FillArray(int[] collection) //создаем массив
 {
-    int length = collection.Length;
+    int length = collection.Length; //длинна массива
     int index = 0;
-    while(index < length)
+    while(index < length) //пока индекс меньше длинны
     {
-        collection[index] = new Random().Next(1,10);
+        collection[index] = new Random().Next(1,10); //наполнение массива случайными числами в дипазоне 1-10
         index++;
     }
 }
 
-void PrintArray(int[]col)
+void PrintArray(int[]col) //Печатаем массив
 {
     int count = col.Length;
     int position = 0;
@@ -43,5 +43,5 @@ FillArray(array);
 PrintArray(array);
 Console.WriteLine();
 
-int pos = IndexOf(array, 4);
+int pos = IndexOf(array, 15);
 Console.WriteLine(pos);
